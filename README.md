@@ -6,7 +6,7 @@
 
 <h1 align="center">Infinite Ajax Scroll</h1>
 
-Turn your existing pagination into infinite scrolling pages with ease. 
+Turn your existing pagination into infinite scrolling pages with ease.
 
 * SEO friendly 🥇
 * Doesn't break browsers back button 💯
@@ -17,6 +17,8 @@ More features, docs and demos available at: https://infiniteajaxscroll.com/
 [![Build Status](https://travis-ci.org/webcreate/infinite-ajax-scroll.png?branch=master)](https://travis-ci.org/webcreate/infinite-ajax-scroll)
 
 ## Installation
+
+grunt build
 
 Download [jquery-ias.min.js](https://infiniteajaxscroll.com/download.html) (latest).
 
@@ -29,9 +31,9 @@ Include Infinite Ajax Scroll into your html pages.
 Include jQuery if you haven't already.
 
 ```html
-<script   
-    src="https://code.jquery.com/jquery-3.2.1.min.js"   
-    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   
+<script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
 ```
 
