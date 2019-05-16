@@ -614,6 +614,17 @@
     return this;
   };
 
+    IAS.prototype.setOptions = function($element,options) {
+    this.itemsContainerSelector = options.container;
+    this.itemSelector = options.item;
+    this.nextSelector = options.next;
+    this.paginationSelector = options.pagination;
+    this.$scrollContainer = $element;
+    this.$itemsContainer = $(this.itemsContainerSelector);
+    this.$container = (window === $element.get(0) ? $(document) : $element);
+    return this;
+  };
+
   /**
    * Shortcut. Sets the window as scroll container.
    *
